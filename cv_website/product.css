@@ -1,0 +1,74 @@
+body
+{
+    background-color: rgb(164, 168, 172);
+}
+a
+{
+    color: snow;
+    text-shadow: 5px 5px 5px black;
+}
+img
+{
+    width: 100%;
+    height:270px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+.Main_head
+{
+    background-color: rgb(66, 65, 65);
+    display: grid;
+    grid-template-columns: 45% 25% 15% 15%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    color: snow;
+
+}
+.Main_background_one, .Main_background_two, .Main_background_three
+{
+    background-color: rgb(66, 65, 65);
+    border-radius: 10px ;
+    box-shadow: 10px 10px 10px black;
+
+}
+.Sec_background_one,.Sec_background_two,.Sec_background_three
+{
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+.iteams
+{
+   position: relative;
+   bottom: 80px;
+   text-align: center;
+   background-color: rgb(164, 168, 172);
+   border-radius: 10px;    
+}
+.Sec_background_one div:hover,.Sec_background_twodiv:hover,.Sec_background_threediv:hover
+{
+    box-shadow: 10px 10px 10px black;
+}
+.Sec_background_one div button,.Sec_background_two div button,.Sec_background_three div button
+{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(115, 120, 124);
+}
+.Mian_thing
+{
+    position: relative;
+    top: 50px;
+    display: grid;
+    grid-template-rows: 10% 10% 10%;
+    gap:  25px;
+}
+.Iteams_one, .Iteams_two,.Iteams_three
+{
+    background-color: rgb(115, 120, 124);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    text-align: center;
+    text-shadow: 10px 10px 10px black;
+}

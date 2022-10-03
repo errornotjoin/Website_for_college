@@ -1,0 +1,98 @@
+body
+{
+    background-color: rgb(164, 168, 172);
+}
+a
+{
+    color: snow;
+    text-shadow: 5px 5px 5px black;
+}
+.Main_head
+{
+    background-color: rgb(66, 65, 65);
+    display: grid;
+    grid-template-columns: 45% 25% 15% 15%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    color: snow;
+
+}
+
+.login
+{
+    position: relative;
+
+}
+.footer_for_the_website
+{
+    background-color: rgb(66, 65, 65);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    text-align: center;
+    color: snow;
+    width: fit-content;
+    font-size: larger;
+    position: relative;
+    top: 120px;
+    display: grid;
+    grid-template-columns: 25% 10% 10% ;
+    gap: 20px;
+
+
+}
+
+.Iteams_on_sales h1, .For_him h1, .For_Her h1
+{
+    background-color: rgb(59, 58, 58);
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    color: snow;
+    position: relative;
+    top: 20px;
+}
+.For_him div ,.Iteams_on_sales div, .For_Her div
+{   
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    color: snow;
+    opacity: 0.5;
+    background-color:rgb(110, 114, 117);
+    box-shadow: 2px 2px 2px black;
+    font-size: larger;
+}
+.For_him:hover div, .Iteams_on_sales:hover div,.For_Her:hover div
+{
+    opacity: 1;
+}
+
+
+.Iteams_on_sales img,.For_him img, .For_Her img
+{
+    width: 100%;
+    height:270px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+
+}
+.Iteamxz
+{
+    position: relative;
+    top: 50px;
+    display: flex;
+    gap: 50px;
+}
+.Under_div_two, .Under_div_one
+{
+    position: relative;
+    bottom: 20px;
+    background-color: rgb(110, 114, 117);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    color: snow;
+    font-size: larger;
+}

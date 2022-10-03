@@ -1,0 +1,138 @@
+body
+{
+    background-color: rgb(164, 168, 172);
+}
+a
+{
+    color: snow;
+}
+a:hover
+{
+    color: snow;
+    text-shadow: 5px 5px 5px  black;
+
+}
+.SginUp_div, .Sgin_In_div
+{
+    position: relative;
+    left: 25%;
+    bottom: -50px;
+    background-color: rgb(32, 32, 32);
+    width: 45%;
+    height: 750px;
+    border-radius: 10px ;
+    box-shadow: 10px 10px 10px black;
+}
+.Sgin_In_div
+{
+    position: relative;
+    bottom: 700px;
+}
+.SginUp_form, .Sgin_In_form
+{
+    position: relative;
+    left: 2.5%;
+    width: 95%;
+    background-color: rgb(104, 103, 103);
+    border-radius: 10px;
+    display: grid;
+    gap: 50px;
+    height: 650px;
+    text-align: center;
+    color: snow;
+}
+.SginUp_form input, .Sgin_In_form input
+{
+    text-align: center;
+    color: rgb(37, 36, 59);
+    background-color: rgb(143, 143, 143);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    height: 50px;
+    font-size: larger;
+    border: none;
+}
+.SginUp_form input:hover, .Sgin_In_form input:hover
+{
+    box-shadow: 10px 10px 10px black;
+}
+.rest
+{
+    position: relative;
+     bottom: 10px;
+     width: 50%;
+     right: 1%;
+}
+.test
+{
+    position: relative;
+    left: 50%;
+    bottom:110px;
+    width: 50%;
+}
+.buttons_s
+{
+    position: relative;
+    left: 25%;
+    bottom: 80px;
+    width: 50%;
+    gap: 2px;
+    display: flex;
+ }
+.buttons_s button
+{
+    background-color: rgb(143, 143, 143);
+    border: none;
+    width: 45%;
+    border-radius: 5px;
+    color: snow;
+    font-size: larger;
+    box-shadow: 5px 5px 5px black;
+}
+.Main_buttons
+{
+    position: relative;
+    left: 25%;
+    width: 45%;
+    border-radius: 10px;
+    background-color: rgb(116, 116, 116);
+    top: 40px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.Main_buttons button
+{
+    background-color: rgb(66, 66, 66);
+    box-shadow: 5px 5px 5px black;
+    border: none;
+    color: snow;
+    border-radius: 10px;
+    font-size: larger;
+}
+.Main_head
+{
+    background-color: rgb(66, 65, 65);
+    display: grid;
+    grid-template-columns: 45% 25% 15% 15%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    color: snow;
+}
+.rest_two, .test_two
+{
+    position: relative;
+    top: 185px;
+    width: 50%;
+    right: 1%;
+}
+.test_two
+{position: relative;
+
+left: 50%;
+top: 80px;
+}
+.text
+{
+    position: relative;
+    bottom: 0px;
+}
